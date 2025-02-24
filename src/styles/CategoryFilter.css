@@ -1,0 +1,22 @@
+.category-filter{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.buttons-container{
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+
+button{
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	background-color: #ddd;
+}
+
+button.active{
+	background-color: #4CAF50;
+	color: white;
+}

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import '../styles/CategoryFilter.css'
 const CategoryFilter = ({ categories, onFilterChange }) => {
 	const [selectedCategory, setSelectedCategory] = useState(null)
 
@@ -10,9 +10,9 @@ const CategoryFilter = ({ categories, onFilterChange }) => {
 	};
 
 	return(
-		<div>
+		<div className='category-filter'>
 			<h3>Filtrer par Categorie</h3>
-			<div>
+			<div className='buttons-container'>
 				{
 					categories.map((category) => (
 						<button 
